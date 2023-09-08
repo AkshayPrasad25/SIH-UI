@@ -4,7 +4,7 @@ const Maindash = () => {
   return (
     <div className='main1'>
         
-        <h1>Statistics</h1>
+        <h1>Status</h1>
         <div className='content1'>
             <div className='box'>
 

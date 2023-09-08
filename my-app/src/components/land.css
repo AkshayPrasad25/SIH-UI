@@ -31,8 +31,9 @@
     height: 100px;
     font-size: 4rem;
     background-color: transparent;
-    border: transparent;
-    color: azure;
+    border: none;
+    outline: none;
+    color: #fff;
     text-align: center;
     border-radius: 5rem;
     align-items: center;

@@ -7,9 +7,14 @@
     /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 3);
     border: 5px solid transparent; */
     overflow: hidden;
-    background-color: gray;
+    background-color: darkblue;
     /* background-color: #98C18C; */
     border-radius: 2rem;
+    opacity: 0.3;
+}
+
+.main1 h1{
+    text-shadow: 5px 5px black;
 }
 
 .main1 {
@@ -82,9 +87,10 @@
         /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 3);
         border: 5px solid transparent; */
         overflow: hidden;
-        background-color: gray;
+        background-color: darkblue;
         /* background-color: #98C18C; */
         border-radius: 2rem;
+        opacity: 0.3;
     }
 
     .main1 .content1 {
