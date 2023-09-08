@@ -102,8 +102,8 @@
     justify-content: center;
     width: 300px;
     height: 300px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 3);
-    border: 5px solid transparent;
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 3);
+    border: 5px solid transparent; */
     overflow: hidden;
     background-color: transparent;
     /* background-color: #98C18C; */
