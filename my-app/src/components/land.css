@@ -89,7 +89,7 @@
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:600px) {
     
 .main .content h1 {
     font-size: 2rem;
@@ -115,6 +115,7 @@
 .setimg {
     height: 60px;
     font-size: 2rem;
+    text-align: center;
 }
 
 }

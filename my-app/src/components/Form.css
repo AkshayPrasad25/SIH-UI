@@ -39,6 +39,6 @@ form a {
         height: 300px;
         object-fit: cover;
         position: relative;
-        left: 18%;
+        left:2rem;
     }
 }

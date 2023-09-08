@@ -82,8 +82,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 500px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
         /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 3);
         border: 5px solid transparent; */
         overflow: hidden;
@@ -99,7 +99,7 @@
         gap: 50px;
         position: relative;
         /* transform: translate(-50%,-50%); */
-        top: 20rem;
+        top: 16rem;
         left: 50%;
         align-items: center;
         justify-content: center;
