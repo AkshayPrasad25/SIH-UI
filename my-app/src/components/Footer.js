@@ -1,13 +1,18 @@
 import "./Footer.css"
-import React from 'react'
+import React, { useEffect } from 'react'
 import {FaHome, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa"
 import { Link } from "react-router-dom"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({duration: 1000});
+  }, []);
   return (
     <div className="footer">
         <div className="footer-container">
-            <div className="left">
+            <div className="left" data-aos="fade-right">
                 <div className="location">
                     <FaHome size={20} style={{color: "#fff", marginRight: "2rem"}} />
                     <div>
@@ -25,7 +30,7 @@ const Footer = () => {
                 youremail@gmail.com</h4>
                 </div>
             </div>
-            <div className="right">
+            <div className="right"  data-aos="fade-right">
                 <h4>About Us</h4>
                 <p>We are a dedicated team on a mission to revolutionize agriculture through the power of AI.
                      Our innovative technology automates irrigation, accurately gauges plant growth stages, 

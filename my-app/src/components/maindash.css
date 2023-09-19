@@ -10,8 +10,10 @@
     background-color: darkblue;
     /* background-color: #98C18C; */
     border-radius: 2rem;
-    opacity: 0.3;
+    opacity: 0.3 !important;
+    
 }
+
 
 .main1 h1{
     text-shadow: 5px 5px black;
@@ -31,7 +33,7 @@
     z-index: -1;
 }
 
-.main1 .content1 {
+.main1 .hidden {
     display: flex;
     gap: 100px;
     position: relative;
@@ -90,10 +92,10 @@
         background-color: darkblue;
         /* background-color: #98C18C; */
         border-radius: 2rem;
-        opacity: 0.3;
+        opacity: 0.3 !important;
     }
 
-    .main1 .content1 {
+    .main1 .hidden {
         display: flex;
         flex-direction: column;
         gap: 50px;
