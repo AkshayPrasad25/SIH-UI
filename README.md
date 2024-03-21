@@ -17,7 +17,7 @@ https://github.com/AkshayPrasad25/SIH-UI/assets/122083846/e5e869ca-00ba-4772-a3a
 git clone https://github.com/AkshayPrasad25/SIH-UI.git
 ```
 
-### [2] Install required packages in both Client and Server.
+### [2] Install required packages.
 ``` bash
 npm i
 ```
